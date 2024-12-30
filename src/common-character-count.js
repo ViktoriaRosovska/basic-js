@@ -16,7 +16,7 @@ function getCommonCharacterCount(s1, s2) {
  let counter = 0;
  for (let i = 0; i < s1.length; i++){
     if (tempS2.includes(s1[i])) {
-      counter ++;
+      counter++;
       tempS2 = tempS2.replace(s1[i], '');
     }
  }
